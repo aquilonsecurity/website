@@ -1,0 +1,22 @@
+baseURL = 'https://aquilon.dev/'
+languageCode = 'en-us'
+title = 'Aquilon Security'
+theme = ''
+
+[params]
+  description = "Cybersecurity Products and Solutions"
+  author = "Aquilon Security LLC"
+
+[menu]
+  # Menu items can be added here when needed
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# GitHub Pages configuration
+[deployment]
+  [[deployment.targets]]
+    name = "public"
+    URL = "public"
