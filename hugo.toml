@@ -1,7 +1,6 @@
 baseURL = 'https://aquilon.dev/'
 languageCode = 'en-us'
 title = 'Aquilon Security'
-theme = ''
 
 [params]
   description = "Cybersecurity Products and Solutions"
